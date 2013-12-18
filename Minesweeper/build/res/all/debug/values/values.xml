@@ -530,10 +530,8 @@
 - Uncover a mine, and the game ends.\n\n
 - Uncover an empty square, and you keep playing.\n\n
 - Uncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.\n\n</string>
-    <string name="smiley">SmileyImage</string>
-    <string name="timer">0</string>
     <string name="title_activity_game">Minesweeper - Game </string>
-    <string name="title_activity_high_scores">HighScoresActivity</string>
+    <string name="title_activity_high_scores">Minesweeper - High Scores</string>
     <string name="title_activity_minesweeper">Minesweeper - Menu</string>
     <string name="title_activity_rules">Minesweeper - Rules</string>
     <!-- From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/styles.xml -->

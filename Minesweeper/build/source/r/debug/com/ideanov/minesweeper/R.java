@@ -1024,12 +1024,10 @@ containing a value of this type.
         public static final int no_high_scores=0x7f0b0018;
         public static final int rules=0x7f0b0019;
         public static final int rules_content=0x7f0b001a;
-        public static final int smiley=0x7f0b001b;
-        public static final int timer=0x7f0b001c;
-        public static final int title_activity_game=0x7f0b001d;
-        public static final int title_activity_high_scores=0x7f0b001e;
-        public static final int title_activity_minesweeper=0x7f0b001f;
-        public static final int title_activity_rules=0x7f0b0020;
+        public static final int title_activity_game=0x7f0b001b;
+        public static final int title_activity_high_scores=0x7f0b001c;
+        public static final int title_activity_minesweeper=0x7f0b001d;
+        public static final int title_activity_rules=0x7f0b001e;
     }
     public static final class style {
         /**  From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/styles.xml 
