@@ -362,12 +362,10 @@ int string new_game 0x7f0b0017
 int string no_high_scores 0x7f0b0018
 int string rules 0x7f0b0019
 int string rules_content 0x7f0b001a
-int string smiley 0x7f0b001b
-int string timer 0x7f0b001c
-int string title_activity_game 0x7f0b001d
-int string title_activity_high_scores 0x7f0b001e
-int string title_activity_minesweeper 0x7f0b001f
-int string title_activity_rules 0x7f0b0020
+int string title_activity_game 0x7f0b001b
+int string title_activity_high_scores 0x7f0b001c
+int string title_activity_minesweeper 0x7f0b001d
+int string title_activity_rules 0x7f0b001e
 int style AppBaseTheme 0x7f0c0000
 int style AppTheme 0x7f0c0001
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0c0002
