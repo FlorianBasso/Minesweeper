@@ -873,7 +873,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int flag_icon=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
+        public static final int question_icon=0x7f020059;
     }
     public static final class id {
         public static final int action_bar=0x7f08001a;
@@ -891,23 +893,23 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f08002f;
         public static final int action_mode_bar_stub=0x7f08002e;
         public static final int action_mode_close_button=0x7f080022;
-        public static final int action_settings=0x7f080048;
+        public static final int action_settings=0x7f08004c;
         public static final int activity_chooser_view_content=0x7f080023;
         public static final int always=0x7f08000f;
         public static final int beginning=0x7f08000a;
         public static final int checkbox=0x7f08002b;
         public static final int collapseActionView=0x7f080011;
-        public static final int continue_game_button=0x7f080043;
+        public static final int continue_game_button=0x7f080045;
         public static final int default_activity_button=0x7f080026;
         public static final int dialog=0x7f080012;
         public static final int disableHome=0x7f080008;
         public static final int dropdown=0x7f080013;
         public static final int edit_query=0x7f080036;
         public static final int end=0x7f08000c;
-        public static final int exit_button=0x7f080046;
+        public static final int exit_button=0x7f080048;
         public static final int expand_activities_button=0x7f080024;
         public static final int expanded_menu=0x7f08002a;
-        public static final int high_scores_button=0x7f080044;
+        public static final int high_scores_button=0x7f080046;
         public static final int home=0x7f080017;
         public static final int homeAsUp=0x7f080005;
         public static final int icon=0x7f080028;
@@ -917,8 +919,9 @@ containing a value of this type.
         public static final int listMode=0x7f080001;
         public static final int list_item=0x7f080027;
         public static final int middle=0x7f08000b;
+        public static final int minesText=0x7f080042;
         public static final int never=0x7f08000d;
-        public static final int new_game_button=0x7f080042;
+        public static final int new_game_button=0x7f080044;
         public static final int none=0x7f080009;
         public static final int normal=0x7f080000;
         public static final int progress_circular=0x7f080034;
@@ -926,8 +929,8 @@ containing a value of this type.
         public static final int radio=0x7f08002d;
         public static final int right_container=0x7f080032;
         public static final int right_icon=0x7f080033;
-        public static final int rules_button=0x7f080045;
-        public static final int rules_content=0x7f080047;
+        public static final int rules_button=0x7f080047;
+        public static final int rules_content=0x7f080049;
         public static final int search_badge=0x7f080038;
         public static final int search_bar=0x7f080037;
         public static final int search_button=0x7f080039;
@@ -945,6 +948,9 @@ containing a value of this type.
         public static final int split_action_bar=0x7f08001c;
         public static final int submit_area=0x7f08003f;
         public static final int tabMode=0x7f080002;
+        public static final int textview_list_header=0x7f08004a;
+        public static final int textview_list_item=0x7f08004b;
+        public static final int timerText=0x7f080043;
         public static final int title=0x7f080029;
         public static final int title_container=0x7f080030;
         public static final int top_action_bar=0x7f08001e;
@@ -983,10 +989,13 @@ containing a value of this type.
         public static final int abc_screen=0x7f030015;
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
-        public static final int activity_high_scores=0x7f030018;
-        public static final int activity_menu=0x7f030019;
-        public static final int activity_rules=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_game=0x7f030018;
+        public static final int activity_high_scores=0x7f030019;
+        public static final int activity_menu=0x7f03001a;
+        public static final int activity_rules=0x7f03001b;
+        public static final int list_header=0x7f03001c;
+        public static final int list_item=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
         public static final int game=0x7f0d0000;
@@ -1022,12 +1031,13 @@ containing a value of this type.
         public static final int medium_label=0x7f0b0016;
         public static final int new_game=0x7f0b0017;
         public static final int no_high_scores=0x7f0b0018;
-        public static final int rules=0x7f0b0019;
-        public static final int rules_content=0x7f0b001a;
-        public static final int title_activity_game=0x7f0b001b;
-        public static final int title_activity_high_scores=0x7f0b001c;
-        public static final int title_activity_minesweeper=0x7f0b001d;
-        public static final int title_activity_rules=0x7f0b001e;
+        public static final int restart=0x7f0b0019;
+        public static final int rules=0x7f0b001a;
+        public static final int rules_content=0x7f0b001b;
+        public static final int title_activity_game=0x7f0b001c;
+        public static final int title_activity_high_scores=0x7f0b001d;
+        public static final int title_activity_minesweeper=0x7f0b001e;
+        public static final int title_activity_rules=0x7f0b001f;
     }
     public static final class style {
         /**  From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/styles.xml 

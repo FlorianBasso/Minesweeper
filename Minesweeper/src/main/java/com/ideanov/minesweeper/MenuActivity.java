@@ -34,12 +34,16 @@ public class MenuActivity extends Activity {
 
     private void startNewGame(int i)
     {
-        //Intent intent = new Intent(this, GameActivity.class);
-        //intent.putExtra(GameActivity.KEY_DIFFICULTY, i);
-        //startActivity(intent);
+        Intent intent = new Intent(this, GameActivity.class);
+        intent.putExtra(GameActivity.KEY_DIFFICULTY, i);
+        startActivity(intent);
     }
 
-    public void continueGame(View target) {
+    public void continueGame(View target)
+    {
+        Intent intent = new Intent(this, GameActivity.class);
+        intent.putExtra(GameActivity.KEY_CONTINUE, true);
+        startActivity(intent);
     }
 
     public void displayHighScores(View target)

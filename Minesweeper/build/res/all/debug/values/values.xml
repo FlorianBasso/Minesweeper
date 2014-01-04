@@ -525,6 +525,7 @@
     <string name="medium_label">Medium</string>
     <string name="new_game">New Game</string>
     <string name="no_high_scores">There isn\'t any High Scores. Go play, dammit !</string>
+    <string name="restart">Restart</string>
     <string name="rules">Rules</string>
     <string name="rules_content">The rules in Minesweeper are simple: \n\n
 - Uncover a mine, and the game ends.\n\n

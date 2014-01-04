@@ -4358,6 +4358,8 @@ false
                 </string>
                 <string name="easy_label" >Easy
                 </string>
+                <string name="restart" >Restart
+                </string>
                 <string name="rules_content" >The rules in Minesweeper are simple: \n\n
 - Uncover a mine, and the game ends.\n\n
 - Uncover an empty square, and you keep playing.\n\n
@@ -4472,6 +4474,31 @@ false
                 path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/menu/high_scores.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="activity_game"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/layout/activity_game.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="flag_icon"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/flag_icon.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="question_icon"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/question_icon.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="list_header"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/layout/list_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/build/res/rs/debug" />
     </dataSet>

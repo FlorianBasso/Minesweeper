@@ -14,6 +14,8 @@
         </activity>
         <activity android:label="@string/title_activity_high_scores" android:name="com.ideanov.minesweeper.HighScoresActivity">
         </activity>
+        <activity android:label="@string/title_activity_game" android:name="com.ideanov.minesweeper.GameActivity">
+        </activity>
     </application>
 
 </manifest>

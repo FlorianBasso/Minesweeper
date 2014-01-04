@@ -21,4 +21,5 @@
     <string name="title_activity_game">Minesweeper - Game </string>
     <string name="title_activity_high_scores">Minesweeper - High Scores</string>
     <string name="no_high_scores">There isn\'t any High Scores. Go play, dammit !</string>
+    <string name="restart">Restart</string>
 </resources>
