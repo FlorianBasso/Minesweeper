@@ -1018,6 +1018,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0b000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000c;
         /**  From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/strings.xml 
+ From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values-fr/strings.xml 
          */
         public static final int action_settings=0x7f0b000d;
         public static final int app_name=0x7f0b000e;
@@ -1026,18 +1027,18 @@ containing a value of this type.
         public static final int easy_label=0x7f0b0011;
         public static final int exit=0x7f0b0012;
         public static final int hard_label=0x7f0b0013;
-        public static final int hello_world=0x7f0b0014;
-        public static final int high_scores=0x7f0b0015;
-        public static final int medium_label=0x7f0b0016;
-        public static final int new_game=0x7f0b0017;
-        public static final int no_high_scores=0x7f0b0018;
-        public static final int restart=0x7f0b0019;
-        public static final int rules=0x7f0b001a;
-        public static final int rules_content=0x7f0b001b;
-        public static final int title_activity_game=0x7f0b001c;
-        public static final int title_activity_high_scores=0x7f0b001d;
-        public static final int title_activity_minesweeper=0x7f0b001e;
-        public static final int title_activity_rules=0x7f0b001f;
+        public static final int high_scores=0x7f0b0014;
+        public static final int medium_label=0x7f0b0015;
+        public static final int new_game=0x7f0b0016;
+        public static final int no_high_scores=0x7f0b0017;
+        public static final int restart=0x7f0b0018;
+        public static final int rules=0x7f0b0019;
+        public static final int rules_content=0x7f0b001a;
+        public static final int title_activity_game=0x7f0b001b;
+        public static final int title_activity_high_scores=0x7f0b001c;
+        public static final int title_activity_minesweeper=0x7f0b001d;
+        public static final int title_activity_rules=0x7f0b001e;
+        public static final int username=0x7f0b001f;
     }
     public static final class style {
         /**  From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/styles.xml 

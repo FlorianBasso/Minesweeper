@@ -36,9 +36,10 @@ public class HighScoresActivity extends ExpandableListActivity
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Easy");
-        listDataHeader.add("Medium");
-        listDataHeader.add("Hard");
+
+        listDataHeader.add(getString(R.string.easy_label));
+        listDataHeader.add(getString(R.string.medium_label));
+        listDataHeader.add(getString(R.string.hard_label));
 
         // Adding child data
         List<String> easy = new ArrayList<String>();

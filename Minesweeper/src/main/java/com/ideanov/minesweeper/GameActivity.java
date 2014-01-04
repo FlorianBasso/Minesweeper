@@ -61,10 +61,10 @@ public class GameActivity extends Activity {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
 
         // Setting Dialog Title
-        alertDialog.setTitle("High Score");
+        alertDialog.setTitle(R.string.high_scores);
 
         // Setting Dialog Message
-        alertDialog.setMessage("Enter your username");
+        alertDialog.setMessage(R.string.username);
         final EditText input = new EditText(GameActivity.this);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,

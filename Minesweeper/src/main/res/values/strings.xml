@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">Minesweeper</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="new_game">New Game</string>
     <string name="continue_game">Continue</string>
     <string name="high_scores">High Scores</string>
@@ -22,4 +21,5 @@
     <string name="title_activity_high_scores">Minesweeper - High Scores</string>
     <string name="no_high_scores">There isn\'t any High Scores. Go play, dammit !</string>
     <string name="restart">Restart</string>
+    <string name="username">Enter your username</string>
 </resources>

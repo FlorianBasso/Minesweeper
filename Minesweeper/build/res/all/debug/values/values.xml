@@ -520,7 +520,6 @@
     <string name="easy_label">Easy</string>
     <string name="exit">Exit</string>
     <string name="hard_label">Hard</string>
-    <string name="hello_world">Hello world!</string>
     <string name="high_scores">High Scores</string>
     <string name="medium_label">Medium</string>
     <string name="new_game">New Game</string>
@@ -535,6 +534,7 @@
     <string name="title_activity_high_scores">Minesweeper - High Scores</string>
     <string name="title_activity_minesweeper">Minesweeper - Menu</string>
     <string name="title_activity_rules">Minesweeper - Rules</string>
+    <string name="username">Enter your username</string>
     <!-- From: file:/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme">
         <!--

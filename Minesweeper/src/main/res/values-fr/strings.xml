@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Démineur</string>
+    <string name="action_settings">Options</string>
+    <string name="new_game">Nouvelle partie</string>
+    <string name="continue_game">Continuer</string>
+    <string name="high_scores">Scores</string>
+    <string name="rules">Règles</string>
+    <string name="exit">Quitter</string>
+    <string name="title_activity_rules">Démineur - Règles</string>
+    <string name="title_activity_minesweeper">Démineur - Menu</string>
+    <string name="rules_content">Les règles du démineur sont simples: \n\n
+- Retourne une mine et la partie est perdue.\n\n
+- Retourne une case vide et la partie continue.\n\n
+- Retourne un nombre et il te dit combien de mines sont cachés dans les 8 cases qui entourent la case avec le nombre. A toi d\'en deduire quelles sont les cases sûres!\n\n</string>
+    <string name="difficulty_title">Difficulte</string>
+    <string name="easy_label">Facile</string>
+    <string name="medium_label">Normal</string>
+    <string name="hard_label">Difficile</string>
+    <string name="title_activity_game">Démineur - Jeu </string>
+    <string name="title_activity_high_scores">Démineur - Scores</string>
+    <string name="no_high_scores">Il n\'y a aucun score, va jouer bon sang!</string>
+    <string name="restart">Rejouer</string>
+    <string name="username">Entre ton pseudo</string>
+</resources>
