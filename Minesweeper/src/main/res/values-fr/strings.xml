@@ -13,7 +13,7 @@
 - Retourne une mine et la partie est perdue.\n\n
 - Retourne une case vide et la partie continue.\n\n
 - Retourne un nombre et il te dit combien de mines sont cachés dans les 8 cases qui entourent la case avec le nombre. A toi d\'en deduire quelles sont les cases sûres!\n\n</string>
-    <string name="difficulty_title">Difficulte</string>
+    <string name="difficulty_title">Difficulté</string>
     <string name="easy_label">Facile</string>
     <string name="medium_label">Normal</string>
     <string name="hard_label">Difficile</string>

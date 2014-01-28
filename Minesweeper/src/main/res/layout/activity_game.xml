@@ -1,67 +1,46 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="0,2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".GameActivity"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_column="0"
+        android:text="000"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <ImageButton android:id="@+id/Smiley"
+        android:layout_column="1"
+        android:background="@drawable/smiley_button_states"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/MineCount"
+        android:layout_column="2"
+        android:text="000"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</TableRow>
 
-    <LinearLayout
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:layout_weight = "1">
-        <TextView
-            android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/MineField"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/minesText"
-            android:layout_weight="1"
-            android:textSize="16sp"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/restart"
-            android:textSize="14sp"/>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/timerText"
-            android:layout_weight="1"
-            android:textSize="16sp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:layout_weight = "1">
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="#FFF"/>
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/flag_icon"
-            android:scaleType="fitCenter"
-            android:background="#FFF"/>
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/question_icon"
-            android:scaleType="fitCenter"
-            android:background="#FFF"/>
-    </LinearLayout>
-
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight = "10"/>
-</LinearLayout>
+            android:gravity="bottom"
+            android:stretchColumns="*"
+            android:layout_span="3"
+            android:padding="5dip" >
+        </TableLayout>
+    </ScrollView>
+</TableRow>
+</TableLayout>

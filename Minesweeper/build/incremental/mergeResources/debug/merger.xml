@@ -4481,16 +4481,6 @@ false
                 qualifiers=""
                 type="layout" />
             <file
-                name="flag_icon"
-                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/flag_icon.jpg"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="question_icon"
-                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/question_icon.jpg"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="list_header"
                 path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/layout/list_header.xml"
                 qualifiers=""
@@ -4522,7 +4512,7 @@ false
                 </string>
                 <string name="high_scores" >Scores
                 </string>
-                <string name="difficulty_title" >Difficulte
+                <string name="difficulty_title" >Difficulté
                 </string>
                 <string name="title_activity_rules" >Démineur - Règles
                 </string>
@@ -4545,6 +4535,41 @@ false
                 <string name="username" >Entre ton pseudo
                 </string>
             </file>
+            <file
+                name="smiley_button_states"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/smiley_button_states.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="surprise"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/surprise.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="smile"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/smile.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sad"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/sad.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="cool"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/cool.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="square_blue"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/square_blue.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="square_grey"
+                path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/src/main/res/drawable-mdpi/square_grey.png"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="/Users/florianbasso/Documents/AndroidStudioProjects/MinesweeperProject/Minesweeper/build/res/rs/debug" />
     </dataSet>
